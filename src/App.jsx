@@ -2,12 +2,15 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Landing from "./components/Landing/Landing";
+import routers from "../routes";
+import { useRoutes } from "react-router-dom";
 
 function App() {
+  let allRoutes = useRoutes(routers);
   return (
     <>
       <Navbar />
-      <Landing />
+      {allRoutes}
     </>
   );
 }
