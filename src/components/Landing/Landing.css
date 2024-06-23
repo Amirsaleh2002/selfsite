@@ -1,0 +1,51 @@
+.landing-container {
+  width: 80%;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.userinfo {
+  font-size: 5.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+.userjob {
+  font-size: 4rem;
+  color: #00abf0;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.userdetails {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.user-communication-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+.user-communication-links a {
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  border-radius: 12px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+  color: #00abf0;
+  background-color: #081b29;
+  border: 1px solid #00abf0;
+  transition: all 1s;
+  font-weight: 700;
+}
+.user-communication-links a:hover {
+  color: #081b29;
+  background-color: #00abf0;
+}
