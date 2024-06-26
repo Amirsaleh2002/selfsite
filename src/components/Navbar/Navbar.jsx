@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FaHamburger } from "react-icons/fa";
 import { FaWindowClose } from "react-icons/fa";
 
-
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 
@@ -20,7 +19,9 @@ function Navbar() {
 
       {isMenuShown ? (
         <ul className="right-nav-responsive">
-          <div className="close-menu" onClick={() => setIsMenuShown(false)}><FaWindowClose /></div>
+          <div className="close-menu" onClick={() => setIsMenuShown(false)}>
+            <FaWindowClose />
+          </div>
           <li className="nav-item">
             <Link to="/" className="nav-link">
               Home
@@ -33,12 +34,12 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link to="/about" className="nav-link">
-              About
+              About Me
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/portfolio" className="nav-link">
-              Portfolio
+              Work samples
             </Link>
           </li>
         </ul>
@@ -57,12 +58,12 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link to="/about" className="nav-link">
-                About
+                About Me
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/portfolio" className="nav-link">
-                Portfolio
+                Work samples
               </Link>
             </li>
           </ul>
