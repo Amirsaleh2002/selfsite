@@ -1,0 +1,21 @@
+.about-container {
+  width: 80%;
+  margin: 60px auto;
+}
+.my-name {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: bolder;
+}
+.questions {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 800;
+  margin-top: 20px;
+}
+.desc {
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 20px;
+  line-height: 45px;
+}
